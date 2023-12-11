@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600&family=Nunito:wght@200;300;400;500;600&display=swap');
+
+:root{
+	--color-contenido:#808080;
+	--color-titulos:#222;
+	--color-primary:#00094E;
+	--color-negro:#000;
+	--fondo-gris:#f4f4f4;
+	--color-hover-menu:#2293D7;
+	--fondo-footer:#ebebeb;
+}
+body{
+	font-family:"abril-fatface";
+	font-size: 15px;
+	color: var(--color-contenido);
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+header{
+	background-color: #00094E;
+	padding: 20px 0;
+}
+#inicio h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+}
+#inicio{
+	background-image: url("../img/WhatsApp Image 2023-07-20 at 4.41.19 PM.jpeg");
+	background-position: top center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.40);
+  	background-blend-mode: multiply;
+	padding: 10% 0;
+}
+
+#works{
+text-align: center;
+	}
+
+footer{
+	background-color: var(--color-negro);
+	padding: 20px;
+	color: #FFFFFF
+}
+
+footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #2293D7
+}
+
+#about-features i{
+	font-size: 45px;
+	color: var(--color-primary);
+}
+#about-features h3{
+	font-weight: 300;
+	font-size: 20px;
+}
+#about-features .row{
+	margin-top: 20px;
+}
+#about-features {
+	padding: 40px;
+}	
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid var(--color-primary) !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: var(--color-primary);
+    border: 0 !important;
+}
+.app-carousel img{
+	width: inherit !important;
+	margin: auto;
+}
+
+#hero-slides .subtitulo{
+	color: #FFFFFF;
+}
+#hero-title h1,
+#hero-slides h1{
+	font-size: 65px;
+	color:#FFFFFF;
+	font-weight: 200;
+}
+#hero-title p,
+#hero-slides p{
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 0 20%;
+}
+
+
+
+
